@@ -1,4 +1,5 @@
 # car_garage - threads and synchronization (Linux & C)
+
 This exercise simulates a car repair garage,deals with the use of many threads that share common resources between them,
 and ensures the correct and fair distribution of these resources.
 The garage has various types of resources: "Lift" (lifting device), engine oil drain cart,
@@ -18,6 +19,7 @@ In the exercise there are 3 input files:
 - Resource type: A number that identifies the resource as a single value
 - resource name for example: "Light Orientation System"
 - The number of such systems owned by the garage.
+
 2.) services.txt: List of all types of treatments that can be obtained in the garage.
 Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - Type of treatment: A number that identifies the treatment is unique
@@ -25,6 +27,7 @@ Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - The number of hours this type of treatment requires (1 - 8)
 - Number of resources required to perform this type of treatment (length of list below)
 - List of resource numbers needed to perform the treatment (there may be a blank list)
+
 3.) requests.txt: List of cars seeking garage care.
 Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - The license number of the car (for example, 4120274.)

@@ -20,7 +20,8 @@ In the exercise there are 3 input files:
 - resource name for example: "Light Orientation System"
 - The number of such systems owned by the garage.
 
-2.) services.txt: List of all types of treatments that can be obtained in the garage.
+2.) services.txt: 
+List of all types of treatments that can be obtained in the garage.
 Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - Type of treatment: A number that identifies the treatment is unique
 - The name of the treatment (For example: "Adjust lights")

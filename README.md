@@ -11,7 +11,7 @@ And of course these may be different from one car to another.
 Each type of treatment requires a fixed time: one hour, two hours, three, four hours and even more. 
 It is forbidden to perform more than one treatment on a specific car at the same time, even if the car needs several treatments: they are performed in one another one, 
 and even then, only if provided that the resources necessary for their implementation are available.
-In the exercise there are 3 input files:
+In the exercise there are 3 input files:\n /n
 1.) resources.txt: The list of resources in the garage
 - Each row in the file has three fields, separated by a tab mark (‘\ t’ :)
 - Resource type: A number that identifies the resource as a single value

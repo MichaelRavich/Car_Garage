@@ -22,6 +22,7 @@ In the exercise there are 3 input files:
 
 2.) services.txt: 
 List of all types of treatments that can be obtained in the garage.
+
 Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - Type of treatment: A number that identifies the treatment is unique
 - The name of the treatment (For example: "Adjust lights")
@@ -30,6 +31,7 @@ Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - List of resource numbers needed to perform the treatment (there may be a blank list)
 
 3.) requests.txt: List of cars seeking garage care.
+
 Each row in the file has several fields, separated by a tab sign (‘\ t’ :)
 - The license number of the car (for example, 4120274.)
 - Time of arrival of the car at the garage (0 - 23.)
